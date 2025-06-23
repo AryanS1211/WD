@@ -1,0 +1,31 @@
+.light{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+
+}
+.red{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+.yellow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 235, 82);
+    margin: 10px;
+    border: 2px solid black;
+}
+.green{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(46, 255, 92);
+    margin: 10px;
+    border: 2px solid black;
+}
