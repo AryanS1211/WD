@@ -1,0 +1,18 @@
+#qs1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.alpha{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
