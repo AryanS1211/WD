@@ -1,0 +1,21 @@
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 155, 155);
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 1, 94) ;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+ul{
+  list-style-type: none;  
+  display: flex;
+}
+.li{
+    margin-right: 15px;
+    cursor: pointer;
+}
