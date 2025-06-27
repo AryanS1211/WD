@@ -1,0 +1,32 @@
+#qs1{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    gap: 10px;
+}
+.grid{
+    background-color: rgb(127, 127, 255);
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+#g1{
+  grid-area: 1/1/1/12;
+}
+#g2{
+    grid-area: 2/1/11/3;
+}
+#g3{
+    grid-area: 2/3/2/9;
+}
+#g4{
+    grid-area: 2/9/11/12;
+}
+#g5{
+    grid-area: 3/3/11/9;
+}
+#g6{
+    grid-area: 11/1/12/12;
+}
