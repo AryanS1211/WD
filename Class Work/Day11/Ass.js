@@ -64,14 +64,14 @@
 
 // //QS6
 
-// let num1 = 32888;
-// let num2 = 44322;
+let num1 = 32888;
+let num2 = 44322;
 
-// let cnum1 = num1%10;
-// let cnum2 = num2%10;
-// if ((cnum1 && cnum2) == 2){
-//     console.log("Both have same last digit");
-// }
-// else{
-//     console.log("Both don't have same last digit");
-// }
+let cnum1 = num1%10;
+let cnum2 = num2%10;
+if (cnum1 ==2 && cnum2 == 2){
+    console.log("Both have same last digit");
+}
+else{
+    console.log("Both don't have same last digit");
+}
