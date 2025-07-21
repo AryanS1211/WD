@@ -28,7 +28,7 @@ console.log(Math.floor(sum));
 //QS4
 let num3 = 0;
 let ans = 1;
-for (let i = 1; i <= num3; i++) {
+for (let i = 1; i <= num1; i++) {
   ans = ans * i;
 }
 console.log(ans);
